@@ -2,14 +2,15 @@
 doi:
 doi of according publication: XXXX - will be added once published
 
-This repository should enable you to reproduce the dynamic-based Groundwater-Hydrograph clustering method proposed in: *Wunsch, A., Liesch, T., Broda, S., Feature-based Groundwater Hydrograph Clustering using unsupervised Self-Organizing-Map-Ensembles (submitted)*
+This repository should enable you to reproduce the dynamic-based Groundwater-Hydrograph clustering method proposed in: 
+*Wunsch, A., Liesch, T., Broda, S., Feature-based Groundwater Hydrograph Clustering using unsupervised Self-Organizing-Map-Ensembles (submitted)*
 
-Contact: andreas.wunsch@kit.edu 
+*Contact: andreas.wunsch@kit.edu *
 
-ORCIDs of authors:
-A.Wunsch: 0000-0002-0585-9549
-T.Liesch: 0000-0001-8648-5333
-S.Broda: 0000-0001-6858-6368
+*ORCIDs of authors:*
+*A.Wunsch: 0000-0002-0585-9549*
+*T.Liesch: 0000-0001-8648-5333*
+*S.Broda: 0000-0001-6858-6368*
 
 For a detailed description of the workflow, please refer to the publication.
 Please adapt all absolute loading/saving and software paths within the scripts to make them running, you need Matlab and R software for  a successful application.
