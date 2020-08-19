@@ -1,5 +1,5 @@
 # Groundwater-Dynamic-Clustering
-doi:    
+doi of this repo:  [![DOI](https://zenodo.org/badge/223953264.svg)](https://zenodo.org/badge/latestdoi/223953264)  
 
 doi of according publication:    
 XXXX - will be added once published
