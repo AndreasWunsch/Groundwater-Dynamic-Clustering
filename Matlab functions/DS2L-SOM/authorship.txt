@@ -1,0 +1,9 @@
+original scripts and functions by Guenael Cabanes
+see also: 
+Cabanes, G., Bennani, Y., & Fresneau, D. (2012). 
+Enriched topological learning for cluster detection and visualization. 
+Neural Networks, 32, 186–195. https://doi.org/10/f3z7z8
+
+folders: 
+DS2L-SOM Batch
+DS2L-SOM Stochastique

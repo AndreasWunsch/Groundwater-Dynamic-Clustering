@@ -2,10 +2,10 @@
 start_time <- Sys.time()
 library(readr)
 
-#load data
-features_z <- read_csv("C:/Users/Andreas Wunsch/Workspace/01_Matlab/features_z_forR.txt", 
+#load data from your Matlab path
+features_z <- read_csv("./features_z_forR.txt", 
                        col_names = FALSE)
-clusters <- read.table(file = "C:/Users/Andreas Wunsch/Workspace/01_Matlab/Ensemble_FeatureConfigs_forR.txt",
+clusters <- read.table(file = "./Ensemble_FeatureConfigs_forR.txt",
                        header = FALSE, sep = ",", dec = ".")
 
 fz<-data.matrix(features_z)
@@ -37,7 +37,8 @@ meltedlist<-melt(evaluation)
 ml<-meltedlist$value
 
 #save to text
-write(ml,file = "C:/Users/Andreas Wunsch/Workspace/01_Matlab/R_ClusterVal_stats_FeatureConfig.txt")#please adapt this path, but do not change the file name
+write(ml,file = "./R_ClusterVal_stats_FeatureConfig.txt")#please adapt this path to your matlab directory, but do not change the file name
+
 
 
 end_time <- Sys.time()
