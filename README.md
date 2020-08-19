@@ -16,7 +16,8 @@ S. Broda:  0000-0001-6858-6368
 
 For a detailed description of the workflow, please refer to the publication.
 Please adapt all absolute loading/saving and software paths within the scripts to make them running, you need Matlab and R software for  a successful application.
-Please note that our SOM-Clustering Technique can also be replaced by a CLustering TEchnique of your choice (e.g. k-means, HC-clustering)
+Please note that our SOM-Clustering Technique can also be replaced by a Clustering Technique of your choice (e.g. k-means, HC-clustering); however it offers a convenient way of determining the cluster number autmatically. For details please refer to the aforementioned publication.  
+
 # Content Overview:
 * /01_Workflow_Preselection_and_Optimiziation
 These scripts should be used for Feature preselection after a visual skill test of the explanatory power of the respective features, as well to optimize the Cluster-Algorithm Parameters. This is a iterative Process and once completed, the following will be used for the Ensemble-Modelling-Workflow:
